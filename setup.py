@@ -10,17 +10,17 @@ def read_files(files):
 
 
 meta = {}
-with open('./simple_serializer/version.py') as f:
+with open('./porcupine/version.py') as f:
     exec(f.read(), meta)
 
 setup(
-    name='simple_serializer',
+    name='porcupine-python',
     version=meta['__version__'],
     packages=[
-        'simple_serializer'
+        'porcupine'
     ],
     install_requires=[
-        'pydantic = "==1.4.*"',
+        'pydantic==1.4.*',
     ],
     url='https://github.com/zurek11/simple_serializer',
     license='MIT',
