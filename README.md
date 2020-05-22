@@ -1,4 +1,4 @@
-# Simple serializer
+# porcupine-python
 
 ## Usage
 
