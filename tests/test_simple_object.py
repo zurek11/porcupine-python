@@ -1,6 +1,6 @@
 import pytest
 from pydantic import ValidationError
-from simple_serializer.base import Serializer
+from porcupine.base import Serializer
 
 
 class User(object):

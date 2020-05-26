@@ -1,5 +1,5 @@
 import pytest
-from simple_serializer.base import Serializer
+from porcupine.base import Serializer
 
 
 class User(object):
