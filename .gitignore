@@ -2,3 +2,6 @@
 
 .idea/
 .pytest_cache
+porcupine_python.egg-info
+build
+dist
