@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class Serializer(BaseModel):
-    def __init__(self, data):
+    def __init__(self, data: object):
         init_input = {}
 
         for key, value in self.__fields__.items():
