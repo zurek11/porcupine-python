@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class Serializer(BaseModel):
-    def __init__(self, data: object):
+    def __init__(self, data: object, **kwargs):
         init_input = {}
 
         for key, value in self.__fields__.items():
@@ -23,6 +23,9 @@ class Serializer(BaseModel):
 
             resolver = f"resolve_{key}"
             if hasattr(self, resolver):
-                init_input[key] = getattr(self, resolver)(data)
+                if kwargs:
+                    init_input[key] = getattr(self, resolver)(data, **kwargs)
+                else:
+                    init_input[key] = getattr(self, resolver)(data)
 
         super().__init__(**init_input)

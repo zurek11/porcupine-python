@@ -14,7 +14,7 @@ class UserSerializer(Serializer):
     full_name: str = None
 
     @staticmethod
-    def resolve_full_name(data):
+    def resolve_full_name(data, **kwargs):
         fullname = None
 
         if data.name and data.surname:

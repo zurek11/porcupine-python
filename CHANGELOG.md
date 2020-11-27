@@ -6,3 +6,8 @@
 
 - Fixed Expected type 'Dict[str, Any]' warning when calling BaseSerializer
 - Implemented test for nested objects.
+
+## 0.3.0 : 2020-11-27
+
+- 🦦 Implemented possibility to add custom arguments to serializers.
+- 🦦 Pydantic version requirement changed from `1.4.*` to `1.7.*`.

@@ -1,4 +1,3 @@
-import pytest
 from porcupine.base import Serializer
 
 
@@ -26,19 +25,7 @@ class OrganisationSerializer(Serializer):
     name: str
 
 
-@pytest.fixture
-def user():
-    user = User('user_name', 'user_surname', 23)
-    return user
-
-
-@pytest.fixture
-def organisation(user):
-    organisation = Organisation(user, 'organisation_name')
-    return organisation
-
-
-class TestSimpleObject:
+class TestSimpleNestedObject:
     def test_nested_serializer(self):
         user = User('user_name', 'user_surname', 23)
         organisation = Organisation(user, 'organisation_name')

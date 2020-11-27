@@ -20,7 +20,7 @@ setup(
         'porcupine'
     ],
     install_requires=[
-        'pydantic==1.4.*',
+        'pydantic==1.7.*',
     ],
     url='https://github.com/zurek11/simple_serializer',
     license='MIT',
