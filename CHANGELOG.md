@@ -11,3 +11,8 @@
 
 - 🦦 Implemented possibility to add custom arguments to serializers.
 - 🦦 Pydantic version requirement changed from `1.4.*` to `1.7.*`.
+
+## 0.4.0 : 2021-02-02
+
+- 🎸 Support for nested serializers.
+- 🎸 Support for list of serializers.

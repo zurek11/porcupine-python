@@ -14,10 +14,10 @@ class Serializer(BaseModel):
                     elif issubclass(value.sub_fields[0].type_, Serializer):
                         result = []
                         for item in getattr(data, key).all():
-                            result.append(value.sub_fields[0].type_(item))
+                            result.append(value.sub_fields[0].type_(data=item, **kwargs))
                         init_input[key] = result
                 else:
-                    init_input[key] = value.type_(getattr(data, key))
+                    init_input[key] = value.type_(data=getattr(data, key), **kwargs)
             elif hasattr(data, key):
                 init_input[key] = getattr(data, key)
 
