@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.5.0 : TBD
+## 0.5.0 : 2021-08-27
 
 - 🌵 Prefer resolvers to model property
 
