@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "porcupine-python"
-version = "0.4.0"
+version = "0.5.0"
 description = "Hi. I am a fucking porcupine. I am here to serialize your responses."
 authors = ["Adam Žúrek <adamzurek14@gmail.com>"]
 license = "MIT"
