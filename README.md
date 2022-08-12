@@ -2,7 +2,7 @@
 
 [![codecov](https://codecov.io/gh/zurek11/porcupine-python/branch/master/graph/badge.svg)](https://codecov.io/gh/zurek11/porcupine-python)
 
-Hi. I am a fucking porcupine 🦔. I am here to serialize your responses 💪.
+Hi. I am a small and lovely porcupine 🦔. I am here to serialize your objects 💪!
 
 ## Usage
 
