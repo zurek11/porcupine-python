@@ -20,7 +20,7 @@ setup(
         'porcupine'
     ],
     install_requires=[
-        'pydantic==1.7.*',
+        'pydantic==1.*',
     ],
     url='https://github.com/zurek11/simple_serializer',
     license='MIT',
@@ -33,8 +33,9 @@ setup(
         # As from https://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 4 - Beta',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Intended Audience :: Developers',
