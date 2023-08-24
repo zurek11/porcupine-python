@@ -13,7 +13,7 @@ pydantic = "^1.5.1"
 [tool.poetry.dev-dependencies]
 pytest = "^7.4.0"
 flake8 = "^6.0"
-coverage = {version = "^7", extras = ["toml"]}
+pytest-cov = "^4.1.0"
 
 [tool.coverage.run]
 omit = [
