@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.6.0 : 2023-08-24
+
+- 🐸 Maintenance release (changed pydantic dependencies)
+
 ## 0.5.0 : 2021-08-27
 
 - 🌵 Prefer resolvers to model property
